@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import { container } from 'tsyringe';
 
 import { UsersRepository } from '@modules/accounts/infra/typeorm/repositories/UsersRepository';
