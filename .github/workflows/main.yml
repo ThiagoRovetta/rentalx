@@ -32,7 +32,6 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           source: "., !node_modules"
           target: "~/app/rentalx"
-      - name: multiple command
   
       - name: Update API
       - uses: appleboy/ssh-action@master
